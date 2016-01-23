@@ -24,7 +24,7 @@ Or install it yourself as:
 ```rb
 # syntax: MangaReadMan.image_urls(title, chapter)
 
-# one chapter
+# any chapter
 MangaReadMan.image_urls('one-piece', 3)
 =>[
    { 3=>[
@@ -36,7 +36,7 @@ MangaReadMan.image_urls('one-piece', 3)
    }
   ]
 
-# range chapter
+# some chapters
 MangaReadMan.image_urls('one-piece', 5..7)
 =>[
    { 5=>[
@@ -62,7 +62,7 @@ MangaReadMan.image_urls('one-piece', 5..7)
    }
   ]
 
-# all chapter
+# all chapters
 MangaReadMan.image_urls('one-piece')
 =>[
    { 1=>[
