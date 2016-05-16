@@ -1,5 +1,7 @@
 # MangaReadMan
 
+[![Gem Version](https://badge.fury.io/rb/manga_read_man.svg)](https://badge.fury.io/rb/manga_read_man)
+
 MangaReadMan is a Ruby library for extracting image urls from mangareader ( http://www.mangareader.net ).
 
 
